@@ -7,11 +7,12 @@ Version:	0.3.3
 Release:	0.%{snap}.1
 License:	BSD
 Group:		Libraries
+#Source0Download: https://github.com/jhasse/poly2tri/releases
 #Source0:	https://poly2tri.googlecode.com/archive/26242d0aa7b85fe3bf8c64a343dbe8a88055de37.tar.gz
 Source0:	26242d0aa7b85fe3bf8c64a343dbe8a88055de37.tar.gz
 # Source0-md5:	41a410f8b4de7cd6a3d64546c43a058b
 Patch0:		%{name}-glfw3.patch
-URL:		https://code.google.com/p/poly2tri
+URL:		https://github.com/jhasse/poly2tri
 BuildRequires:	OpenGL-devel
 BuildRequires:	glfw-devel >= 3
 BuildRequires:	libstdc++-devel
