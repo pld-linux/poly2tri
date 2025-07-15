@@ -56,7 +56,7 @@ Statyczna biblioteka poly2tri.
 
 %prep
 %setup -q -n %{name}-26242d0aa7b8
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 # it doesn't actually build the library
